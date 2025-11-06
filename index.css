@@ -17,11 +17,11 @@ nav {
     justify-content: space-between;
 }
 
-h3 {
+/* h3 {
     font-size: 2.3em;
     font-weight: bolder;
     text-decoration: underline;
-}
+} */
 
 
 /**FOOTER THAT WILL BE APPLIED FOR EACH PAGE**/
@@ -91,8 +91,6 @@ footer {
     }
 
 }
-
-
 
 /*MENU WHEN USER PRESSES HAMBURGER MENU*/
 /*FOR MOBILE DEVICES / SMALLER SCREENS*/
@@ -206,13 +204,10 @@ nav .mainMenu .closeMenu {
     justify-content: center;
     text-align: center;
     padding: 0 15px;
-    /* gap: 5em; */
-    /* padding: 30px 12% 0; */
 }
 
 .home-content {
     max-width: 800px;
-    /* padding: 2%; */
 }
 
 .home-content h2 {
@@ -229,60 +224,54 @@ nav .mainMenu .closeMenu {
     margin: 25px 0 30px;
 }
 
-.about {
-    background-color: #13131e;
-    padding: 5% 8%;
-    gap: 8em;
-    font-size: 1.2em;
-    line-height: 1.5;
-}
-
-.about-content { 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    scale: 1; 
-    opacity: 1; 
-}
-
 @keyframes fade-in {
     to { scale: .95; opacity: 1}
 } 
 
-
-.about-content h2 {
+.homepage-work {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
-    color: white;
-    font-size: 3em;
-    margin-bottom: 2%;
+    padding: 0 15px;
+    background-color: black;
 }
 
-.about-content p {
-    margin: 2em;
-    letter-spacing: 1px;
+.homepage-work-content {
+    max-width: 800px;
 }
 
-#about-button {
-    background-color: #d9e1ea;
-    color: rgb(0, 0, 0);
-    overflow: visible;
-    border: 1px solid rgba(11, 11, 11, 0.57);
-    font-weight: 400;
-    letter-spacing: 1px;
-    margin-left: 2%; 
-    padding: 1.5em 7em;
-    cursor: pointer;
+.homepage-work-content h3 {
+    font-size: 2.1rem;
+    text-align: left;
+    margin: 60px 0;
+}
+
+.homepage-work-content-section {
+    /* background: red; */
+    width: 90%;
+    margin: 0 auto;
+    padding: 25px 0;
+    /* margin: 20px 0; */
+}
+
+.homepage-work-content-section img {
+    width: 100%;
+    max-width: fit-content;
     border-radius: 8px;
+    margin-bottom: 8px;
 }
 
-#about-button a {
-    color: rgb(0, 0, 0);
-    text-decoration: none;
+.homepage-work-content-section h4 {
+    font-size: 1.8rem;
+    text-align: left;
+    font-weight: bolder;
 }
 
-#about-button:hover {
-    border: 1px solid rgb(255, 255, 255);
-    transition: 0.5s ease;
-    background-color: #9ca1a7;
+.homepage-work-content-section-details {
+    text-align: left;
+    font-size: 1.3rem;
+    margin: 8px 0;
 }
