@@ -5,9 +5,9 @@
 }
 
 body {
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Roboto Mono', sans-serif;
     color: rgb(238, 238, 238);
-    background-color: #1d1d2d;
+    background-color: #000000;
 }
 
 nav {
@@ -134,14 +134,14 @@ nav .mainMenu li a:hover {
 }
 
 nav .openMenu {
-    font-size: 1.2em;
+    font-size: 1.4em;
     margin: 20px;
     display: inline-block;
     cursor: pointer;
 }
 
 nav .mainMenu .closeMenu, .icons i {
-    font-size: 2em;
+    font-size: 4em;
     display: block;
     cursor: pointer;
 }
@@ -181,7 +181,7 @@ nav .mainMenu .closeMenu {
     content: '';
     width: 140px;
     height: 40px;
-    background-color: #1d1d2d;
+    background-color: #000000;
     bottom: 1.6em;
 }
 
@@ -236,7 +236,7 @@ nav .mainMenu .closeMenu {
     justify-content: center;
     text-align: center;
     padding: 0 15px;
-    background-color: black;
+    background-color: #0f0f17;
 }
 
 .homepage-work-content {
@@ -244,34 +244,90 @@ nav .mainMenu .closeMenu {
 }
 
 .homepage-work-content h3 {
-    font-size: 2.1rem;
+    font-size: 2.4rem;
     text-align: left;
     margin: 60px 0;
 }
 
 .homepage-work-content-section {
-    /* background: red; */
     width: 90%;
     margin: 0 auto;
     padding: 25px 0;
-    /* margin: 20px 0; */
 }
 
 .homepage-work-content-section img {
     width: 100%;
     max-width: fit-content;
     border-radius: 8px;
-    margin-bottom: 8px;
+    margin-bottom: 2px;
 }
 
 .homepage-work-content-section h4 {
-    font-size: 1.8rem;
+    font-size: 1.9rem;
     text-align: left;
     font-weight: bolder;
 }
 
 .homepage-work-content-section-details {
     text-align: left;
-    font-size: 1.3rem;
+    font-size: 1rem;
     margin: 8px 0;
+}
+
+.homepage-skills {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 15px;
+    background-color: #0f0f17;
+}
+
+.homepage-skills-content {
+    max-width: 800px;
+}
+
+.homepage-skills-content h3 {
+    font-size: 2.4rem;
+    text-align: left;
+    margin: 60px 0;    
+}
+
+.homepage-skills-content .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.homepage-skills-content .item {
+    text-align: center;
+    padding: 1.5em 0 3em 0;
+    background-color: #151521;
+    margin: 1.5em 0;
+    flex: 0 0 calc(50% - 2em);
+    margin: 1em;
+}
+
+.homepage-skills-content .item span {
+    font-size: 5em;
+}
+
+.homepage-skills-content .item h2 {
+    letter-spacing: 2px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.homepage-skills-content  .item:hover {
+    background-color: #08080c;
+    transition: 0.2s ease-in;
+}
+
+.row ul {
+    list-style-type: none;
+}
+
+.row ul li {
+    padding: 1%;
 }
