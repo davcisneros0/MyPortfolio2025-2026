@@ -17,12 +17,6 @@ nav {
     justify-content: space-between;
 }
 
-/* h3 {
-    font-size: 2.3em;
-    font-weight: bolder;
-    text-decoration: underline;
-} */
-
 
 /**FOOTER THAT WILL BE APPLIED FOR EACH PAGE**/
 footer {
@@ -75,21 +69,6 @@ footer {
     color: white;
     text-decoration: none;
     margin: 2em;
-}
-
-@media only screen and (max-width: 750px) {
-
-    .footer-bottom ul {
-        margin-top: 5%;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .footer-bottom ul li {
-        margin: 4%;
-    }
-
 }
 
 /*MENU WHEN USER PRESSES HAMBURGER MENU*/
