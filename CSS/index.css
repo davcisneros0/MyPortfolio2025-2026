@@ -312,7 +312,7 @@ nav .mainMenu .closeMenu {
     padding: 1%;
 }
 
-/*******FOR INDEX.HTML******/ /*******FOR INDEX.HTML******/ /*******FOR INDEX.HTML******/ 
+/*******FOR ABOUT.HTML******/ /*******FOR ABOUT.HTML******/ /*******FOR ABOUT.HTML******/ 
 
 .aboutpage-main {
     width: 100%;
@@ -346,4 +346,129 @@ nav .mainMenu .closeMenu {
     text-align: left;
     font-size: 1.1rem;
     color: rgb(173, 209, 230);
+}
+
+/*******FOR CONTACT.HTML******/ /*******FOR CONTACT.HTML******/ /*******FOR CONTACT.HTML******/ 
+
+.contactpage-main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15px;
+    background-color: #0f0f17;
+}
+
+.contactpage-main-content {
+    max-width: 800px;
+    width: 100%;
+
+}
+.contactpage-main-content h3 {
+    font-size: 2.4rem;
+    text-align: left;    
+    /* margin-top: 25px; */
+}
+
+.form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position: relative; */
+    width: 100%;
+    /* min-height: 100vh; */
+    /* padding: 2em; */
+    overflow: hidden;
+}
+
+.form {
+    width: 100%;
+    font-size: 1rem;
+}
+
+.contact-info {
+    background-color: rgb(13, 13, 13);
+    position: relative;
+    padding: 2.5em;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.contact-info .text {
+    margin: 1em 0 1.2em 0;
+    text-align: center;
+}
+
+.contact-info .information {
+    display: flex;
+    align-items: center;
+    color: white;
+    margin: 1em;
+}
+
+.contact-form {
+    background-color: rgb(13, 13, 13);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+form {
+    padding: 3%;
+    z-index: 2;
+    overflow: hidden;
+    position: relative;
+    color: white;
+}
+
+.input-container {
+    position: relative;
+    margin: 3%;
+}
+
+.input {
+    width: 100%;
+    padding: 2%;
+    border: 2px solid white;
+    background-color: transparent;
+    outline: none;
+    letter-spacing: 0.5px;
+    border-radius: 10px;
+    color: white;
+}
+
+.input:focus {
+    border: 2px solid rgb(74, 146, 255);
+    transition: 0.2s ease-in-out;
+}
+
+textarea {
+    padding: 1%;
+    min-height: 160px;
+    border-radius: 20px;
+    resize: none;
+    overflow-y: none;
+}
+
+.submit-btn {
+    padding: 0.6em 1.4em;
+    background-color: transparent;
+    color: white;
+    overflow: visible;
+    border: 2px solid rgb(255, 255, 255);
+    letter-spacing: 1px;
+    margin-left: 3%; 
+    padding: 1.5em 7em;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.submit-btn:hover {
+    transition: 0.5s ease;
+    background-color: #9ca1a7;
+}
+
+.icon {
+    font-size: 2.1em;
+    margin-right: 0.3em;
 }
