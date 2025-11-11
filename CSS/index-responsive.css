@@ -20,12 +20,9 @@
         margin: 4%;
     }
 
-    /* body {
-        background-color: red;
-    } */
-
     .home-content {
         font-size: 0.6rem;
+        margin: 0 16px;
     }
 
     .home-content h1, h2 {
@@ -36,5 +33,13 @@
         font-size: 1rem;
     }
 
+    #after-intro-button1 {
+        width: 80%;
+        margin-bottom: 15px;
+    }
+
+    #after-intro-button2 {
+        width: 80%;
+    }    
 }
 
