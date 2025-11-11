@@ -95,7 +95,7 @@ nav .mainMenu {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    background-color: #25253a;
+    background-color: #000000;
     transition: top 1.3s ease;
     display: none; 
 }
@@ -130,7 +130,7 @@ nav .openMenu {
 }
 
 nav .mainMenu .closeMenu, .icons i {
-    font-size: 4em;
+    font-size: 2rem;
     display: block;
     cursor: pointer;
 }

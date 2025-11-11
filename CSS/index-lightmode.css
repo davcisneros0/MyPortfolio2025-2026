@@ -11,6 +11,12 @@ nav {
     background-color: rgb(243, 243, 243);    
 }
 
+/* NAVIGATION MENU */
+
+.nav .mainMenu {
+    background-color: rgb(243, 243, 243);        
+}
+
 #toggle-theme-btn {
     color: black;
 }
