@@ -1,0 +1,45 @@
+header {
+    background-color: rgb(243, 243, 243);
+}
+
+.home {
+    background-color: rgb(243, 243, 243);
+    color: black;
+}
+
+nav {
+    background-color: rgb(243, 243, 243);    
+}
+
+.fa-bars {
+    color: black;
+}
+
+.homepage-main::after,
+.homepage-main::before {
+    background-color: rgb(243, 243, 243);
+}
+
+.homepage-work {
+     background-color: rgb(255, 255, 255);
+    color: black;   
+}
+
+#after-intro-button1, #after-intro-button2 {
+    color: black;
+    overflow: visible;
+    border: 1px solid rgb(0, 0, 0); 
+}
+
+.homepage-work-content-section img {
+    border: 1px solid rgb(215, 215, 215);
+}
+
+footer {
+    background-color: rgb(243, 243, 243);    
+    border-top: 1px solid white;
+}
+
+.footer-bottom ul li a {
+    color: black;
+}

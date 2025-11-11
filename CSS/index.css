@@ -16,8 +16,15 @@ nav {
     color: white;
     display: flex;
     justify-content: flex-end;
+    align-items: center;
 }
 
+#toggle-theme-btn {
+    border: none;
+    font-size: 1.3rem;
+    margin-right: 8px;
+    cursor: pointer;
+}
 
 /**FOOTER THAT WILL BE APPLIED FOR EACH PAGE**/
 footer {
