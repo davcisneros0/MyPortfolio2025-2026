@@ -24,6 +24,8 @@ nav {
     font-size: 1.3rem;
     margin-right: 8px;
     cursor: pointer;
+    background-color: transparent;
+    color: white;
 }
 
 /**FOOTER THAT WILL BE APPLIED FOR EACH PAGE**/

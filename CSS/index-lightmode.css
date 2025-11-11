@@ -11,9 +11,24 @@ nav {
     background-color: rgb(243, 243, 243);    
 }
 
+#toggle-theme-btn {
+    color: black;
+}
+
 .fa-bars {
     color: black;
 }
+
+footer {
+    background-color: rgb(243, 243, 243);    
+    border-top: 1px solid white;
+}
+
+.footer-bottom ul li a {
+    color: black;
+}
+
+/* INDEX.HTML */
 
 .homepage-main::after,
 .homepage-main::before {
@@ -35,11 +50,33 @@ nav {
     border: 1px solid rgb(215, 215, 215);
 }
 
-footer {
-    background-color: rgb(243, 243, 243);    
-    border-top: 1px solid white;
+/* ABOUT.HTML */
+
+.aboutpage-main {
+    background-color: rgb(255, 255, 255);    
+    color: black;
 }
 
-.footer-bottom ul li a {
+.aboutpage-main-content-section h5 {
+    color: rgb(86, 167, 214);
+}
+
+/* CONTACT.HTML */
+
+.contactpage-main {
+    background-color: rgb(255, 255, 255);    
+    color: black;    
+}
+
+form {
+    color: black;
+}
+
+.input {
+    border: 2px solid black;
+}
+
+.submit-btn {
+    border: 2px solid black;
     color: black;
 }
