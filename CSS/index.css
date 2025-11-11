@@ -15,7 +15,7 @@ nav {
     background-color: rgb(0,0,0);
     color: white;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
 }
 
 
@@ -136,21 +136,18 @@ nav .mainMenu .closeMenu {
 /*******FOR INDEX.HTML******/ /*******FOR INDEX.HTML******/ /*******FOR INDEX.HTML******/ 
 
 #after-intro-button1, #after-intro-button2 {
-    background-color: #d9e1ea;
-    color: rgb(0, 0, 0);
+    background-color: transparent;
+    color: rgb(255, 255, 255);
     overflow: visible;
-    border: 1px solid rgba(11, 11, 11, 0.57);
-    font-weight: 400;
+    border: 1px solid rgb(255, 255, 255); 
     letter-spacing: 1px;
-    margin-top: 2%;
-    margin-left: 2%; 
-    padding: 1.2em 5em;
+    margin-left: 10px;
+    padding: 1.3em 5em;
     cursor: pointer;
     border-radius: 8px;
 }
 
 #after-intro-button1:hover, #after-intro-button2:hover {
-    border: 1px solid rgb(255, 255, 255);
     transition: 0.5s ease;
     background-color: #9ca1a7;
 } 
