@@ -38,6 +38,7 @@ footer {
 .footer-container {
     width: 100%;
     padding: 2%;
+    text-align: center;
 }
 
 .socials-icons {
@@ -79,6 +80,13 @@ footer {
     color: white;
     text-decoration: none;
     margin: 2em;
+}
+
+.footer-container small {
+    text-align: center;
+    color: rgb(152, 152, 152);
+    margin-top: 5px;
+    font-size: 0.6rem;
 }
 
 /*MENU WHEN USER PRESSES HAMBURGER MENU*/
